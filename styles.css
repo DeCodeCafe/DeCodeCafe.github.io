@@ -447,8 +447,12 @@ nav a{
     padding-left: 5%;
 }
 
+#end{
+    height: 400px;
+}
 .register{
     
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
