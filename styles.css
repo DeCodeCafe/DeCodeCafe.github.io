@@ -572,6 +572,7 @@ footer h3{
 
     .card{
         width: 80%;
+        height: fit-content;
     }
 
     #end{
