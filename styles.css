@@ -230,8 +230,10 @@ nav a{
 }
 
 .theme{
-    height: 100%;
-    position: relative;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title{
@@ -251,8 +253,8 @@ nav a{
     color: white;
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 25%;
+
+
 }
 
 #prizes{
@@ -426,7 +428,7 @@ nav a{
 .res-card{
     background-color: 240046;
     border-radius: 50px;
-    width: 50%;
+    width: 70%;
     margin: auto;
     height: 8%;
     display: flex;
@@ -540,36 +542,40 @@ footer h3{
 }
 
 /* Add a media query for screens smaller than 768px (adjust breakpoint as needed) */
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column; /* Change to a vertical layout on smaller screens */
-        height: auto; /* Remove fixed height to allow content to expand */
+@media (max-width: 900px) {
+    #first-section{
+        height: auto;
+    }
+    #about
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .about,.img 
+    {
+        width: 80%;
+        margin: auto;
     }
 
-    .logo {
-        padding-left: 0; /* Adjust logo padding for smaller screens */
+    #themes{
+        height: 500px
     }
 
-    nav {
-        width: 100%; /* Make the navigation bar take up the full width */
-        justify-content: flex-start; /* Adjust alignment of navigation items */
-        padding-top: 10px; /* Add spacing above navigation items */
-    }
-
-    nav a {
-        padding: 5px 10px; /* Adjust padding for navigation items */
+    #prizes{
+        height: auto;
     }
 
     .prizes{
         flex-direction: column;
     }
+
     .card{
-        height: 10%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        font-size: large;
+        width: 80%;
+    }
+
+    #end{
+        height: auto;
     }
 
 }
-
