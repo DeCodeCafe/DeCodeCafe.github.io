@@ -697,6 +697,44 @@ footer h3{
     margin-left: 1%;
 }
 
+
+.judge-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.judge{
+    border: 3px solid white;
+    margin: 3rem 0;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    /* background-color: #240046; */
+}
+
+.j-name{
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+.j-designation{
+    margin: 0;
+    font-size: larger;
+    
+}
+
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+    .judge {
+        flex-basis: 100%; 
+        margin: 1rem 0; 
+    }
+}
+
+
 /* Add a media query for screens smaller than 768px (adjust breakpoint as needed) */
 @media (max-width: 900px) {
     #first-section{
@@ -738,6 +776,12 @@ footer h3{
 
     #end{
         height: auto;
+    }
+
+    
+    .judge-main{
+        justify-content: center;
+        flex-direction: column;
     }
 
 }
