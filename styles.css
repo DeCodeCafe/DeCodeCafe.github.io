@@ -233,18 +233,10 @@ nav a{
 }
 
 .theme{
-    height: 90%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    margin:auto;
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    padding-top: 0rem;
-    padding-bottom: 1rem;
-    border-radius: 2rem;
     text-align: center;
 }
 
@@ -380,22 +372,34 @@ nav a{
     height: 800px;
 }
 
-.faq{
-    margin-top: 10%;
+.faq-title{
     text-align: center;
+}
+
+.qcontainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
+    height: 65%;
+}
+
+.faq{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+    align-items: center;
     justify-content: center;
     padding-top: 5%;
 }
 
-.qcard1{
-    
+.qcard{
+    margin-top: 10%;
     background-color: #3f02b0;
-    width: 40%;
     margin: auto;
 
     
@@ -404,73 +408,7 @@ nav a{
     margin: 2%;
 }
 
-.qcard2{
-background-color: #3f02b0;
-    width: 40%;
-    margin: auto;
-
-    
-    border-radius: 20px;
-
-    margin: 2%;
-}
-
-.qcard3{
-background-color: #3f02b0;
-    width: 40%;
-    margin: auto;
-
-    
-    border-radius: 20px;
-
-    margin: 2%;
-}
-
-.qcard4{
-background-color: #3f02b0;
-    width: 40%;
-    margin: auto;
-
-    
-    border-radius: 20px;
-
-    margin: 2%;
-}
-
-.qcard5{
-background-color: #3f02b0;
-    width: 40%;
-    margin: auto;
-
-    
-    border-radius: 20px;
-
-    margin: 2%;
-}
-
-.qcard6{
-background-color: #3f02b0;
-    width: 40%;
-    margin: auto;
-
-    
-    border-radius: 20px;
-
-    margin: 2%;
-}
-
-.qcard7{
-background-color: #3f02b0;
-    width: 40%;
-    margin: auto;
-
-    
-    border-radius: 20px;
-
-    margin: 2%;
-}
-
-.question1{
+.question{
     border-radius: 20px;
     font-family: "Gotham Medium";
     font-size: larger;
@@ -482,79 +420,7 @@ background-color: #3f02b0;
     border: none;
     cursor: pointer;
 }
-.question2{
-border-radius: 20px;
-    font-family: "Gotham Medium";
-    font-size: larger;
-    margin-top: 0;
-    height: 75px;
-    width: 100%;
-    background-color: #3f02b0;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
-.question3{
-border-radius: 20px;
-    font-family: "Gotham Medium";
-    font-size: larger;
-    margin-top: 0;
-    height: 75px;
-    width: 100%;
-    background-color: #3f02b0;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
-.question4{
-border-radius: 20px;
-    font-family: "Gotham Medium";
-    font-size: larger;
-    margin-top: 0;
-    height: 75px;
-    width: 100%;
-    background-color: #3f02b0;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
-.question5{
-border-radius: 20px;
-    font-family: "Gotham Medium";
-    font-size: larger;
-    margin-top: 0;
-    height: 75px;
-    width: 100%;
-    background-color: #3f02b0;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
-.question6{
-border-radius: 20px;
-    font-family: "Gotham Medium";
-    font-size: larger;
-    margin-top: 0;
-    height: 75px;
-    width: 100%;
-    background-color: #3f02b0;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
-.question7{
-   border-radius: 20px;
-    font-family: "Gotham Medium";
-    font-size: larger;
-    margin-top: 0;
-    height: 75px;
-    width: 100%;
-    background-color: #3f02b0;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer; 
-}
-.answer1{
+.answer{
     transition: height 2s ease;
     font-family: "Gotham Medium";
     color: wheat;
@@ -632,7 +498,7 @@ transition: height 2s ease;
     overflow: hidden;
 }
 
-.answer1 p{
+.answer p{
     width: 90%;
     margin: auto;
     margin-bottom: 5%;
@@ -668,6 +534,10 @@ width: 90%;
     margin-bottom: 5%;
 }
 
+.qcard a{
+    color: black;
+}
+
 #res{
     height: 670px;
 }
@@ -682,7 +552,7 @@ width: 90%;
 }
 
 .res-card{
-    background-color: rgb(105, 54, 54);
+    background-color: #3f02b0;
     border-radius: 50px;
     width: 70%;
     margin: auto;
@@ -702,7 +572,7 @@ width: 90%;
 
 .res-card a{
     text-decoration: none;
-    color: blue;
+    color: black;
 
 }
 
@@ -712,6 +582,14 @@ width: 90%;
 
 #end{
     height: 400px;
+}
+#end h2{
+    font-family: 'Bauziet';
+    color: white;
+    font-size: xx-large;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 .register{
     margin-top: 10%;
@@ -741,6 +619,7 @@ width: 90%;
     font-size: large;
     cursor: pointer;
     border: none;
+    font-size: xx-large;
 }
 
 .register button:hover {
@@ -788,7 +667,7 @@ footer h3{
 }
 
 .rules-card{
-    background-color: gray;
+    background-color: #3f02b0;
     border-radius: 50px;
     width: 70%;
     margin: auto;
@@ -831,6 +710,10 @@ footer h3{
 
     #prizes{
         height: auto;
+    }
+
+    .prizes h3{
+        font-size: medium;
     }
 
     .prizes{
