@@ -56,7 +56,7 @@
         </section>
         <section id="about">
             
-            <div class="about">
+            <div class="about" style="margin-top: 2rem;">
                 <h1 class="title">About</h6>
                 <br>
                 <br>
@@ -78,8 +78,8 @@
                 </ul>
             </div>
 
-            <div class="img">
-                <img src="images/poster.png" width="600" height="600" style="margin-left: 1rem; border-radius: 10%;">
+            <div class="img" style="margin-top: 3.5rem;">
+                <img src="images/poster.png" width="590" height="590" style="margin-left: 1rem; border-radius: 10%;">
             </div>
             <div style="clear:both"></div>
         </section>
@@ -270,8 +270,8 @@
             <div style="color:white; text-align: center;">&copy;&nbsp;copyright <a href="https://linktr.ee/decodecafe" target="_blank" style="text-decoration: none; color:white; font-weight: bolder;">DeCodeCafe</a>; All rights received.</div>
         </footer>
         <script>
-            let faqElements = document.querySelectorAll(".question");
-            for(let faqElement of faqElements){
+            let faqElements1 = document.querySelectorAll(".question1");
+            for(let faqElement of faqElements1){
                 faqElement.addEventListener("click", (event) => {
                     if(event.target.nextElementSibling.style.height == 0)
                     {
@@ -282,6 +282,84 @@
                         event.target.nextElementSibling.style.height = "";
                     }
             });
+            }
+        </script>
+        <script>
+            let faqElements2 = document.querySelectorAll(".question2");
+            for (let faqElement of faqElements2) {
+                faqElement.addEventListener("click", (event) => {
+                    if (event.target.nextElementSibling.style.height == 0) {
+                        event.target.nextElementSibling.style.height = "fit-content";
+                    } else {
+                        event.target.style.borderBottom = "none";
+                        event.target.nextElementSibling.style.height = "";
+                    }
+                });
+            }
+        </script>
+        <script>
+            let faqElements3 = document.querySelectorAll(".question3");
+            for (let faqElement of faqElements3) {
+                faqElement.addEventListener("click", (event) => {
+                    if (event.target.nextElementSibling.style.height == 0) {
+                        event.target.nextElementSibling.style.height = "fit-content";
+                    } else {
+                        event.target.style.borderBottom = "none";
+                        event.target.nextElementSibling.style.height = "";
+                    }
+                });
+            }
+        </script>
+        <script>
+            let faqElements4 = document.querySelectorAll(".question4");
+            for (let faqElement of faqElements4) {
+                faqElement.addEventListener("click", (event) => {
+                    if (event.target.nextElementSibling.style.height == 0) {
+                        event.target.nextElementSibling.style.height = "fit-content";
+                    } else {
+                        event.target.style.borderBottom = "none";
+                        event.target.nextElementSibling.style.height = "";
+                    }
+                });
+            }
+        </script>
+        <script>
+            let faqElements5 = document.querySelectorAll(".question5");
+            for (let faqElement of faqElements5) {
+                faqElement.addEventListener("click", (event) => {
+                    if (event.target.nextElementSibling.style.height == 0) {
+                        event.target.nextElementSibling.style.height = "fit-content";
+                    } else {
+                        event.target.style.borderBottom = "none";
+                        event.target.nextElementSibling.style.height = "";
+                    }
+                });
+            }
+        </script>
+        <script>
+            let faqElements6 = document.querySelectorAll(".question6");
+            for (let faqElement of faqElements6) {
+                faqElement.addEventListener("click", (event) => {
+                    if (event.target.nextElementSibling.style.height == 0) {
+                        event.target.nextElementSibling.style.height = "fit-content";
+                    } else {
+                        event.target.style.borderBottom = "none";
+                        event.target.nextElementSibling.style.height = "";
+                    }
+                });
+            }
+        </script>
+        <script>
+            let faqElements7 = document.querySelectorAll(".question7");
+            for (let faqElement of faqElements7) {
+                faqElement.addEventListener("click", (event) => {
+                    if (event.target.nextElementSibling.style.height == 0) {
+                        event.target.nextElementSibling.style.height = "fit-content";
+                    } else {
+                        event.target.style.borderBottom = "none";
+                        event.target.nextElementSibling.style.height = "";
+                    }
+                });
             }
         </script>
     </body>
