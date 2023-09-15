@@ -581,7 +581,12 @@ width: 90%;
 }
 
 #end{
-    height: 400px;
+    height: fit-content;
+}
+
+#end iframe{
+    width: 49%;
+    border-radius: 20px;
 }
 #end h2{
     font-family: 'Bauziet';
