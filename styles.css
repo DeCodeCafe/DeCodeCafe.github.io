@@ -276,11 +276,18 @@ nav a{
 
 }
 
+/*
+.grad{
+    --tw-gradient-from: #3f02b0;
+    --tw-gradient-stops: #00011e, var(--tw-gradient-from);
+    background-image: linear-gradient(to bottom,var(--tw-gradient-stops));   
+}
+*/
 #prizes{
     position: relative;
     height: 720px;
     --tw-gradient-from: #3f02b0;
-    --tw-gradient-stops: var(--tw-gradient-from), #240046;
+    --tw-gradient-stops: var(--tw-gradient-from), #00011e;
     background-image: linear-gradient(to bottom,var(--tw-gradient-stops));   
     display: flex;
     flex-wrap: wrap;
@@ -376,6 +383,9 @@ nav a{
 
 #faq{
     height: 800px;
+    --tw-gradient-stops:#00011e,#01020a, #00011e;
+    background-image: linear-gradient(to bottom,var(--tw-gradient-stops)); 
+
 }
 
 .faq-title{
@@ -401,9 +411,12 @@ nav a{
     align-items: center;
     justify-content: center;
     padding-top: 5%;
+    
 }
 
 .qcard{
+    border: black 2px solid;
+
     margin-top: 10%;
     background-color: #3f02b0;
     margin: auto;
@@ -546,6 +559,10 @@ width: 90%;
 
 #res{
     height: 670px;
+    --tw-gradient-from: #0b0142;
+    --tw-gradient-to: #a663cc;
+    --tw-gradient-stops: #000000, var(--tw-gradient-from);
+    background-image: linear-gradient(to top,var(--tw-gradient-stops));
 }
 .res{
     display: flex;
@@ -671,6 +688,10 @@ footer h3{
 
 #rules{
     height: 670px;
+    --tw-gradient-from: #3f02b0;
+    --tw-gradient-stops: var(--tw-gradient-from), #00011e;
+    background-image: linear-gradient(to top,var(--tw-gradient-stops));  
+
 }
 
 .rules{
@@ -678,7 +699,7 @@ footer h3{
 }
 
 .rules-card{
-    background-color: #3f02b0;
+    background-color: ;
     border-radius: 50px;
     width: 70%;
     margin: auto;
@@ -696,7 +717,11 @@ footer h3{
 .rule_content{
     margin-left: 1%;
 }
-
+#judges{
+    --tw-gradient-from: #0b0142;
+    --tw-gradient-stops: var(--tw-gradient-from), #3f02b0;
+    background-image: linear-gradient(to top,var(--tw-gradient-stops));   
+}
 
 .judge-main{
     display: flex;
@@ -705,7 +730,9 @@ footer h3{
     flex-wrap: wrap;
 }
 
-.judge{
+.judge{    
+    
+    background-color: #1b1b1b;
     border: 3px solid white;
     margin: 3rem 0;
     color: white;
@@ -714,6 +741,9 @@ footer h3{
     /* background-color: #240046; */
     transition: transform 0.2s ease;
     font-family: 'Gotham Medium';
+}
+.judge img{
+    border-radius: 2rem;
 }
 
 .judge h3{
