@@ -239,12 +239,12 @@ nav a{
 }
 
 .theme{
-    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    height: 80%;
 }
+
 
 /* .theme1{
     background-color: #000000;
@@ -266,15 +266,6 @@ nav a{
     top: 0;
 }
 
-#themes h2{
-    font-family: "Bauziet", sans-serif;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    position: absolute;
-
-
-}
 
 /*
 .grad{
@@ -293,6 +284,7 @@ nav a{
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 
 
 .prizes{
@@ -440,7 +432,7 @@ nav a{
     cursor: pointer;
 }
 .answer{
-    transition: height 2s ease;
+    transition: all 2s ease;
     font-family: "Gotham Medium", sans-serif;
     color: wheat;
     text-align: left;
@@ -826,3 +818,64 @@ footer h3{
     }
 
 }
+
+.tcards{
+    display: flex;
+}
+   
+.tcard {
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: fit-content;
+    background-color: #1b1b1b;
+   }
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+
+}
+
+.tcard h2{
+    height: 50px;
+    font-family: 'Bauziet';
+    color: white;
+    text-align: center;
+}
+
+.ans{
+    height: 0;
+    overflow: hidden;
+    color: #c0c0c0;
+}
+   
+   .tcard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+   }
+   
+   .tcard p {
+    line-height: 1.5;
+   }
+   
+   .tcard:hover {
+    transform: scale(1.1);
+    z-index: 999;
+   }
